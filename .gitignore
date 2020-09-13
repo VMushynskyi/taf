@@ -1,7 +1,7 @@
 HELP.md
 .gradle/
-build
 .idea/
+build
 allure-results/
 gradle/
 target/
