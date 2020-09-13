@@ -1,7 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06bcbcd2-c304-4071-960d-1aa5e251e71c" name="Default Changelist" comment="" />
+    <list default="true" id="06bcbcd2-c304-4071-960d-1aa5e251e71c" name="Default Changelist" comment="added missed feature file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajcore.20200831.100203.337.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/001d8d23-d268-4dae-9f81-b723418b4f8a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/009edd42-8722-468c-bdbf-ffe58a393d1a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/01936a55-4edd-491a-827f-33fb1a6c4304-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/02f4bce5-c83f-43da-81a6-b406d19c59b0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/03f2b244-e193-493e-88c4-2ee98c2b1fb6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c7ebc02-f6bb-4158-b76b-716975212051-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0e283663-040b-4298-94da-9fa6640c75ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/149d900c-fc44-4e0e-bfd2-cac4ac19bd99-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/18bb95c9-f77b-4176-be9e-c2fdd708b08e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b82adac-0e84-4a9b-9456-3c7eb26c00a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1bb54b0f-25bf-4665-b23c-495c0633bfd9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1bd70d8f-9142-41b9-89c3-f89dfe4d4e5e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1e930ad0-cc3b-4631-ae54-85bf85ab2c10-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/270fbef7-5a9e-4627-a163-1ea1eaa96ce6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2ce33069-ffbe-46aa-940a-8b87a0e2210f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2eb23088-ecc4-4dc9-af72-7b17d48b99e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2ec67d98-ef70-498c-b4a1-d17f11a7ee24-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f93a03e-3fbe-4ae4-81a4-5714abce8997-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/32a76eb3-a91d-4760-a05c-f873419a0dff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3992759a-c4ae-4712-84ff-3c42bc8d0fb4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3f190e30-2b55-4fde-8f3b-bc0674ade28d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3f8c3cd2-3118-4d79-8a16-a462c3095ae5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/42068491-6432-4223-8194-61194d4b97e2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/421005ed-4d01-4b6e-8666-bbf32aa2316d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45a9d775-c0a7-42fb-9392-89aa5d14c228-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/46877481-f722-46be-b371-12de19583697-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4ae6f8e9-ebed-4899-9efe-64cc7fadad42-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4badd274-7656-4e95-8802-9db01b58daf4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/523a9ee9-8fab-4239-8f0a-4ee772149330-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/52495bd6-c0b2-45f8-936b-a20a6e026973-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/62b9f0e2-f129-466d-8191-5e00a59060c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/64b0bc8f-8d55-48fd-92f5-e6788a78d0fc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/679efa11-e42e-456f-abec-15206140ae31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/67f2cd92-948c-4cd4-bb38-de9c6f7f2a42-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/680c61ae-b5ee-4de4-baf3-f0af7d862952-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6932c734-e23a-4579-9419-98d31c889851-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6ba9dd0f-ce8f-4dc8-b693-dee403cc6c05-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6e626015-d24a-404e-9e18-80ec4dd7b4af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6ee2fcf3-4930-4de5-bb5d-bc1781e2e803-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70b0e382-a5ba-4f3e-b5c2-840a415d89f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/763aa4b1-15ce-4a59-b6f3-5148bda3f743-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7782cd2a-004c-493b-a506-897ddd1a756c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a330261-61ba-4920-b085-00911d9c0019-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7aefde46-d043-43be-a750-c1bae4d3ae22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7f85957e-0953-45d7-a85c-e63cf1bdb82f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/81dcfab3-8f83-4ac1-92ab-ac2ca2a91d80-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/84ea4072-b575-4dd9-9e52-456a4f5dcb50-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/85580168-5a8f-4d5f-a416-fb82953493b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8635cf5d-6ef4-4594-9db6-cb06e048f24c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8bba9cf2-3df3-4aa6-81c2-9d22cbacd4af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8c26c2b9-1575-4ffe-9896-59c3f51dc402-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8ed5b1af-7d9a-4801-b6ea-5cb5fde23842-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8f2e645a-695a-43e7-9c22-a48429dd41d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/90d87ae5-cce5-4cd1-99bc-610553d0c16e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/92ca4bbc-4548-485a-ae3d-0be4a0f78ff4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/93aad8e1-c908-4e25-99a7-a9cd482ed595-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9701e182-157c-4e38-9725-79d0ea637850-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9d266d43-e5e1-4719-af88-c78ce2715f64-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9d288962-c607-4445-b0ab-6ac6eeba8319-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9f46f322-b9ef-4d87-abed-44ea96b5439b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9fb5443c-509b-40b3-b5fc-8a3ca27c7c32-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9ff2be63-35bd-4f59-b1e1-81a0044e3c10-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a1ac8e15-f81b-4ea8-b16a-35a5bc6e75de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a7876287-4c7e-4d0f-bd4c-d46f71421d67-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a799b187-39d4-4fa9-b768-1b09ce761600-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/aff1e344-ccdb-456c-ab21-f7f15f3a5aac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b8cf704e-226c-47c9-bc94-ee2fea4b129a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bab420d2-9631-4aae-bfb0-01f2644bc532-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bedfeb78-a5d9-4790-829b-1ff45b835746-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bf7fb9f4-5d87-4fef-aa1c-4fdfbb4c1fd8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c05e03ea-326b-4611-93d1-546c0399e7ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c121c8c2-2d1f-4b4b-ac9c-3e0d04e43461-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c6f5a877-378f-4d88-9230-6018a5c6cc53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c7330d9c-83d0-49ad-be4e-9ed9eb99cd8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c9149b71-faf7-45c5-a6a7-fd50bb6fb0ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cfc4ec24-b4bc-46ca-820f-78bff1c827e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d23cd37e-3037-4499-b089-7928eec968bf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d6785253-d6d8-42fc-8fe5-b96f0808c26e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dedaa514-5174-4989-85c1-8576e67f87b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dee55b31-0788-44cf-8a8e-e3459dc7c50f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7036cb6-0ab2-4c5c-af77-adf330cb03d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7dc1b2f-881b-448e-9f25-9d5f979ccd8a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eaff6323-524e-40ed-8ca6-b6583163ea0d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f09d7aed-23bd-4d52-bb68-9e60e481d9f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f22315fc-922a-40c3-82be-aa35c240f7ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2826042-5912-4a3b-92dc-3a5374776172-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f55ec6db-a067-48aa-bfe5-68001940c993-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9ddebeb-cd74-4f64-8303-d5a4501129e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fa0e3683-063b-414c-81e6-a3a3f10f64ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ffcd89cf-0eef-4c81-896b-d9d4d7215c66-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-2.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/0ea7e71f-d255-4ff7-ab18-1f0f4cd8994c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/121dcee2-1fc1-450b-8fd3-ccf3826d17a5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3a8142bf-2e1e-46a2-9357-393aa4b32ed2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/4ab5c3df-9ea3-4763-ad28-78cf4f4faa01-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/607ff768-8ace-4ed5-81e4-5cebaab67039-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/68de1c9a-f9a5-459c-a1a5-7ab5429b6924-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/6c969613-31ce-4673-bf57-f2f28d00f92c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/70032bad-7734-4068-b120-fce4976e9d11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/7392564d-6b6b-4d6d-8139-7a2746223be3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/87d6ffc1-0e77-437a-afd5-8b66a1d0961b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8b3a9218-f336-4164-9b59-589567207d11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/9f23452f-301a-4f30-9792-112ac1407f31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a6453d70-f08a-4fce-ae34-2055bf69c2b2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/adb8abe0-e999-42a0-8d8f-2f6e96586696-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ccc73456-66b5-4037-be72-3414c8b8bdf9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/cf2e66f9-6c3d-41e0-ac08-5dde83654be4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d0d0d677-bdc4-4807-9bc3-84e8619df536-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d4cc0f9b-53a1-4405-bb46-d17e9fc434a9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f1d94802-bb7f-43ea-819c-5df232b7c425-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/taf/model/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/taf/model/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/taf/service/LocationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/taf/service/RestClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/taf/utils/LocalDateAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/ApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/location_taf-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/location_taf-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.ApiTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.ApiTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +177,6 @@
                 <item name="location_taf" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="location_taf" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -43,26 +184,41 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gjrKL7GgNgyxhsOP58gWmRxpAM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/reqres" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test\resources" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test\java" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\main\resources" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test\resources\features\debug\feature" />
+      <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test\resources\features\Debug" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test\resources" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\src\test" />
       <recent name="C:\Users\Volodymyr_Mushynskyi\Desktop\location_taf\build" />
@@ -80,104 +236,236 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ApiTest.verifyPutMethod">
-    <configuration name="ApiTest.deleteLocation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.location_taf [spotlessApply]">
+    <configuration name="location_taf [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="location_taf [spotlessApply]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="spotlessApply" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="location_taf.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.runners" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.runners.TestRun" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultAssuredTests.testDelete" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="location_taf.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
-      <option name="METHOD_NAME" value="deleteLocation" />
+      <option name="MAIN_CLASS_NAME" value="test.DefaultAssuredTests" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.getDifferentAuthors" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DefaultAssuredTests.testGet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="location_taf.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
-      <option name="METHOD_NAME" value="getDifferentAuthors" />
+      <option name="MAIN_CLASS_NAME" value="test.DefaultAssuredTests" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.putLocation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DefaultAssuredTests.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="location_taf.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
-      <option name="METHOD_NAME" value="putLocation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.verifyPostMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="location_taf.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
-      <option name="METHOD_NAME" value="verifyPostMethod" />
+      <option name="MAIN_CLASS_NAME" value="test.DefaultAssuredTests" />
+      <option name="METHOD_NAME" value="testPost" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.verifyPutMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="location_taf.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+    <configuration default="true" type="TestNG">
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
-      <option name="METHOD_NAME" value="verifyPutMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.location_taf [spotlessApply]" />
+      <item itemvalue="TestNG.DefaultAssuredTests.testGet" />
+      <item itemvalue="TestNG.DefaultAssuredTests.testPost" />
+      <item itemvalue="TestNG.DefaultAssuredTests.testDelete" />
+      <item itemvalue="JUnit.TestRun" />
+      <item itemvalue="Gradle.location_taf [dependencies]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ApiTest.verifyPutMethod" />
-        <item itemvalue="TestNG.ApiTest.getDifferentAuthors" />
-        <item itemvalue="TestNG.ApiTest.verifyPostMethod" />
-        <item itemvalue="TestNG.ApiTest.putLocation" />
-        <item itemvalue="TestNG.ApiTest.deleteLocation" />
+        <item itemvalue="Gradle.location_taf [dependencies]" />
+        <item itemvalue="TestNG.DefaultAssuredTests.testPost" />
+        <item itemvalue="TestNG.DefaultAssuredTests.testGet" />
+        <item itemvalue="JUnit.TestRun" />
+        <item itemvalue="TestNG.DefaultAssuredTests.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +480,39 @@
       <option name="presentableId" value="Default" />
       <updated>1598638777866</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed test and added cucumber">
+      <created>1600007983004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600007983004</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added missed feature file">
+      <created>1600008396829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600008396829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed test and added cucumber" />
+    <MESSAGE value="added missed feature file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missed feature file" />
   </component>
 </project>
