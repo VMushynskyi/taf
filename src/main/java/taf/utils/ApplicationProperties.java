@@ -28,7 +28,7 @@ public class ApplicationProperties {
     return getProperties().getProperty("api.url");
   }
 
-  public static String getUser() {
+  public static String getUsers() {
     return getProperties().getProperty("api.urn.user");
   }
 

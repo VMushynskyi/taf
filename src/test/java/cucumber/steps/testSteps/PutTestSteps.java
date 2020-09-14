@@ -4,7 +4,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static taf.utils.ApplicationProperties.getApiURI;
-import static taf.utils.ApplicationProperties.getUser;
+import static taf.utils.ApplicationProperties.getUsers;
 
 import io.restassured.http.ContentType;
 import java.util.Map;
@@ -22,14 +22,14 @@ public class PutTestSteps {
         .contentType(ContentType.JSON)
         .body(new User(name, job))
         .when()
-        .put(getApiURI() + getUser() + id);
+        .put(getApiURI() + getUsers() + id);
   }
 
   @Step
   public void verifyThatUserWithAppropriateIdIsUpdated(int id) {
     Map<String, Object> usersList =
         when()
-            .get(getApiURI() + getUser() + id)
+            .get(getApiURI() + getUsers() + id)
             .then()
             .statusCode(200)
             .extract()

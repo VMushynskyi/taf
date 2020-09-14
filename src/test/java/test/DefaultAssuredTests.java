@@ -21,7 +21,7 @@ public class DefaultAssuredTests {
   public void testGet() {
     List<Map<String, Object>> usersList =
         when()
-            .get(getApiURI() + getUser())
+            .get(getApiURI() + getUsers())
             .then()
             .statusCode(200)
             .extract()
@@ -38,7 +38,7 @@ public class DefaultAssuredTests {
         .contentType(ContentType.JSON)
         .body(new User(getFakeName(), getJobName()))
         .when()
-        .post(getApiURI() + getUser())
+        .post(getApiURI() + getUsers())
         .then()
         .assertThat()
         .statusCode(200)
@@ -51,7 +51,7 @@ public class DefaultAssuredTests {
         .contentType(ContentType.JSON)
         .body(new User(getFakeName(), getJobName()))
         .when()
-        .put(getApiURI() + getUser() + "2")
+        .put(getApiURI() + getUsers() + "2")
         .then()
         .assertThat()
         .statusCode(200)
@@ -62,7 +62,7 @@ public class DefaultAssuredTests {
   public void testDelete() {
     given()
         .when()
-        .delete(getApiURI() + getUser() + "6")
+        .delete(getApiURI() + getUsers() + "6")
         .then()
         .assertThat()
         .statusCode(200)

@@ -33,6 +33,14 @@ allure {
         enforceCheck false
     }
 
+test {
+    ignoreFailures = true
+    useTestNG {
+
+    }
+}
+
+
 repositories {
     mavenCentral()
     mavenLocal()
@@ -55,5 +63,5 @@ dependencies {
     compile 'io.rest-assured:json-path:3.3.0'
     compile 'org.hamcrest:hamcrest-all:1.3'
     compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.0'
-    compile 'com.diffplug.gradle.spotless:4.5.1'
+    compile 'com.diffplug.spotless:spotless-plugin-gradle:3.20.0'
 }

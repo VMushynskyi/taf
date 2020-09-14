@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.when;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static taf.service.UserService.storeNextIdByExistingOrder;
 import static taf.utils.ApplicationProperties.getApiURI;
-import static taf.utils.ApplicationProperties.getUser;
+import static taf.utils.ApplicationProperties.getUsers;
 
 import io.restassured.http.ContentType;
 import java.util.List;
@@ -23,7 +23,7 @@ public class PostTestSteps {
           .contentType(ContentType.JSON)
           .body(new User(elements.get(0), elements.get(1)))
           .when()
-          .post(getApiURI() + getUser());
+          .post(getApiURI() + getUsers());
       storeNextIdByExistingOrder();
       Serenity.setSessionVariable("userName").to(elements.get(0));
       Serenity.setSessionVariable("userJob").to(elements.get(1));
@@ -36,7 +36,7 @@ public class PostTestSteps {
     System.out.println(userId);
     Map<String, Object> usersList =
         when()
-            .get(getApiURI() + getUser() + userId)
+            .get(getApiURI() + getUsers() + userId)
             .then()
             .statusCode(200)
             .extract()
